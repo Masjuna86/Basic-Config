@@ -1,0 +1,8 @@
+/ppp export compact file="Full Backup"
+/ppp export file=Backupfull
+/ppp export file=PPPBackup show-sensitive
+/ppp export file=PPPBackup show-sensitive=yes
+/export file=FullRSC
+/ip firewall mangle export file=backupMangle
+/ip route export file=backupiproute
+/routing export file=backupRouting
